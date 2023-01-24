@@ -1,0 +1,36 @@
+{
+  "name": "iqra-oop-bank",
+  "version": "1.2.0",
+  "description": "Bank",
+  "type": "module",
+  "main": "bank.mjs",
+  "bin": {
+    "iqra-oop-bank": "./bank.mjs"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint bank.mjs",
+    "format": "prettier --write bank.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/figlet": "^1.5.5",
+    "@types/inquirer": "^9.0.3",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@types/gradient-string": "^1.1.2",
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3",
+    "eslint": "^8.29.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.4",
+    "nanospinner": "^1.1.0",
+    "type-script-dice-guess-game": "^1.0.2"
+  }
+}
